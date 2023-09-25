@@ -5,13 +5,21 @@ const Navbar = () => {
     const links = (
         <>
           <li>
-          <NavLink to='/'>Home</NavLink>
+          <NavLink to='/' 
+            className={({ isActive }) =>
+            isActive ? "text-[#FF444A]  border-b-[#FF444A]" : ""
+          }
+          >Home</NavLink>
           </li>
           <li>
-          <NavLink to='/donation'>Donation</NavLink>
+          <NavLink to='/donation' className={({ isActive }) =>
+            isActive ? "text-[#FF444A]  border-b-[#FF444A]" : ""
+          }>Donation</NavLink>
           </li>
           <li>
-          <NavLink to='/statistics'>Statistics</NavLink>
+          <NavLink to='/statistics' className={({ isActive }) =>
+            isActive ? "text-[#FF444A]  border-b-[#FF444A]" : ""
+          }>Statistics</NavLink>
           </li>
     
           
@@ -40,7 +48,7 @@ const Navbar = () => {
             </label>
             <ul
               tabIndex={0}
-              className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+              className="menu menu-sm text-xl font-medium dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
             >
               {links}
             </ul>
@@ -48,7 +56,7 @@ const Navbar = () => {
           <div><img src="Logo.png" alt=""  className=" "/></div>
         </div>
         <div className="justify-between items-center hidden md:flex">
-          <ul className="menu menu-horizontal px-1">
+          <ul className="menu text-2xl font-medium  menu-horizontal px-1">
            {links}
           </ul>
         </div>
