@@ -1,9 +1,14 @@
+import { useLoaderData } from "react-router-dom";
+import Banner from "../../Componants/Header/Banner/Banner";
 
 
 const Home = () => {
+    
     return (
         <div>
-            Home
+            <Banner></Banner>
+
+            
         </div>
     );
 };
