@@ -8,6 +8,8 @@ import Sector from "../Pages/Sector/Sector";
 
 
 
+
+
 const myCreateRoute = createBrowserRouter([
     {
         path:"/",
@@ -32,7 +34,7 @@ const myCreateRoute = createBrowserRouter([
                 path: "/categoryData/:id",
                 element: <Sector></Sector>,
                 loader:() =>  fetch('/data.json')
-            }
+            }, 
         ]
     }
 ])
