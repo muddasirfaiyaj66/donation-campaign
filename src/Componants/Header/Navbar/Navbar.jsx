@@ -6,19 +6,19 @@ const Navbar = () => {
         <>
           <li>
           <NavLink to='/' 
-            className={({ isActive }) =>
-            isActive ? "text-[#FF444A]  border-b-[#FF444A]" : ""
+            className={({ isActive, isPending }) =>
+            isPending ? "pending" :isActive ? "text-[#FF444A] border-b-2  border-b-[#FF444A]" : ""
           }
           >Home</NavLink>
           </li>
           <li>
-          <NavLink to='/donation' className={({ isActive }) =>
-            isActive ? "text-[#FF444A]  border-b-[#FF444A]" : ""
+          <NavLink to='/donation' className={({ isActive, isPending }) =>
+            isPending ? "pending" :isActive ? "text-[#FF444A] border-b-2  border-b-[#FF444A]" : ""
           }>Donation</NavLink>
           </li>
           <li>
-          <NavLink to='/statistics' className={({ isActive }) =>
-            isActive ? "text-[#FF444A]  border-b-[#FF444A]" : ""
+          <NavLink to='/statistics' className={({ isActive, isPending }) =>
+            isPending ? "pending" :isActive ? "text-[#FF444A]  border-b-2 border-b-[#FF444A]" : ""
           }>Statistics</NavLink>
           </li>
     
@@ -26,9 +26,9 @@ const Navbar = () => {
         </>
       );
     return (
-        <div className="max-w-screen-xl mx-auto mt-10 ">
+        <div className="max-w-screen-xl mx-auto mt-10  ">
             <div className="navbar flex justify-between item-center  bg-base-100">
-        <div className=" flex justify-between items-center">
+        <div className=" flex justify-between items-center px-3">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost md:hidden">
               <svg
@@ -48,15 +48,15 @@ const Navbar = () => {
             </label>
             <ul
               tabIndex={0}
-              className="menu menu-sm text-xl font-medium dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+              className=" menu-sm text-xl font-medium dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
             >
               {links}
             </ul>
           </div>
-          <div><img src="Logo.png" alt=""  className=" "/></div>
+          <div><img src="/Logo.png" alt=""  className=" "/></div>
         </div>
-        <div className="justify-between items-center hidden md:flex">
-          <ul className="menu text-2xl font-medium  menu-horizontal px-1">
+        <div className="justify-between items-center hidden px-10 md:flex">
+          <ul className="text-2xl font-medium  flex justify-between gap-10 px-1">
            {links}
           </ul>
         </div>

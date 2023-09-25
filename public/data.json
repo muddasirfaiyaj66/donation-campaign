@@ -1,124 +1,126 @@
-[
+[    
+   
   {
     "id": 1,
-    "picture": "https://i.ibb.co/CM5qZnB/Health.png",
-    "title": "Clean Water for Children",
-    "category": "Health",
-    "category_bg_color": "#0052FF26",
-    "card_bg_color": "#0052FF33",
-    "text_button_bg_color": "#0052FF",
-    "description": "Your donation will provide clean and safe drinking water to children in underserved communities, improving their health and well-being.",
-    "price": "$290.00"
+    "picture": "https://i.ibb.co/X8PR2dv/rsz-education.jpg",
+    "title": "Good Education",
+    "category": "Education",
+    "category_bg_color": "#FF444A26",
+    "card_bg_color": "#FF444933",
+    "text_button_bg_color": "#FF444A",
+    "description": "Support quality education initiatives to empower students with the knowledge and skills they need for a brighter future.",
+    "price": 290.00
   },
   {
     "id": 2,
-    "picture": "https://i.ibb.co/92r56z2/Education.png",
-    "title": "Good Education",
-    "category": "Education",
-    "category_bg_color": "#FF444A26",
-    "card_bg_color": "#FF444933",
-    "text_button_bg_color": "#FF444A",
-    "description": "Support quality education initiatives to empower students with the knowledge and skills they need for a brighter future.",
-    "price": "$290.00"
-  },
-  {
-    "id": 3,
-    "picture": "https://i.ibb.co/BGGWbDm/Food.png",
-    "title": "Better Food for Everyone",
-    "category": "Food",
-    "category_bg_color": "#F8714726",
-    "card_bg_color": "#F8714733",
-    "text_button_bg_color": "#F87147",
-    "description": "Contribute to the effort to provide nutritious and accessible food to everyone, ensuring no one goes hungry.",
-    "price": "$290.00"
-  },
-  {
-    "id": 4,
-    "picture": "https://i.ibb.co/JtgTK3L/Clothing.png",
-    "title": "Used Clothing Drive",
-    "category": "Clothing",
-    "category_bg_color": "#79C23F26",
-    "card_bg_color": "#79C23F33",
-    "text_button_bg_color": "#79C23F",
-    "description": "Donate gently used clothing to help individuals in need stay warm and comfortable, and support a sustainable fashion culture.",
-    "price": "$290.00"
-  },
-  {
-    "id": 5,
-    "picture": "https://i.ibb.co/CM5qZnB/Health.png",
+    "picture": "https://i.ibb.co/dDsBVrF/rsz-health.jpg",
     "title": "Clean Water for Children",
     "category": "Health",
     "category_bg_color": "#0052FF26",
     "card_bg_color": "#0052FF33",
     "text_button_bg_color": "#0052FF",
     "description": "Your donation will provide clean and safe drinking water to children in underserved communities, improving their health and well-being.",
-    "price": "$290.00"
+    "price": 290.00
   },
+  
   {
-    "id": 6,
-    "picture": "https://i.ibb.co/92r56z2/Education.png",
-    "title": "Good Education",
-    "category": "Education",
-    "category_bg_color": "#FF444A26",
-    "card_bg_color": "#FF444933",
-    "text_button_bg_color": "#FF444A",
-    "description": "Support quality education initiatives to empower students with the knowledge and skills they need for a brighter future.",
-    "price": "$290.00"
-  },
-  {
-    "id": 7,
-    "picture": "https://i.ibb.co/BGGWbDm/Food.png",
+    "id": 3,
+    "picture": "https://i.ibb.co/Hh3jJHv/rsz-food.jpg",
     "title": "Better Food for Everyone",
     "category": "Food",
     "category_bg_color": "#F8714726",
     "card_bg_color": "#F8714733",
     "text_button_bg_color": "#F87147",
     "description": "Contribute to the effort to provide nutritious and accessible food to everyone, ensuring no one goes hungry.",
-    "price": "$290.00"
+    "price": 290.00
   },
   {
-    "id": 8,
-    "picture": "https://i.ibb.co/JtgTK3L/Clothing.png",
+    "id": 4,
+    "picture": "https://i.ibb.co/HBSJQg2/rsz-cloth.jpg",
     "title": "Used Clothing Drive",
     "category": "Clothing",
     "category_bg_color": "#79C23F26",
     "card_bg_color": "#79C23F33",
     "text_button_bg_color": "#79C23F",
     "description": "Donate gently used clothing to help individuals in need stay warm and comfortable, and support a sustainable fashion culture.",
-    "price": "$290.00"
+    "price": 290.00
+  },
+  {
+    "id": 5,
+    "picture": "https://i.ibb.co/dDsBVrF/rsz-health.jpg",
+    "title": "Clean Water for Children",
+    "category": "Health",
+    "category_bg_color": "#0052FF26",
+    "card_bg_color": "#0052FF33",
+    "text_button_bg_color": "#0052FF",
+    "description": "Your donation will provide clean and safe drinking water to children in underserved communities, improving their health and well-being.",
+    "price": 290.00
+  },
+  {
+    "id": 6,
+    "picture": "https://i.ibb.co/X8PR2dv/rsz-education.jpg",
+    "title": "Good Education",
+    "category": "Education",
+    "category_bg_color": "#FF444A26",
+    "card_bg_color": "#FF444933",
+    "text_button_bg_color": "#FF444A",
+    "description": "Support quality education initiatives to empower students with the knowledge and skills they need for a brighter future.",
+    "price": 290.00
+  },
+  {
+    "id": 7,
+    "picture": "https://i.ibb.co/Hh3jJHv/rsz-food.jpg",
+    "title": "Better Food for Everyone",
+    "category": "Food",
+    "category_bg_color": "#F8714726",
+    "card_bg_color": "#F8714733",
+    "text_button_bg_color": "#F87147",
+    "description": "Contribute to the effort to provide nutritious and accessible food to everyone, ensuring no one goes hungry.",
+    "price": 290.00
+  },
+  {
+    "id": 8,
+    "picture": "https://i.ibb.co/HBSJQg2/rsz-cloth.jpg",
+    "title": "Used Clothing Drive",
+    "category": "Clothing",
+    "category_bg_color": "#79C23F26",
+    "card_bg_color": "#79C23F33",
+    "text_button_bg_color": "#79C23F",
+    "description": "Donate gently used clothing to help individuals in need stay warm and comfortable, and support a sustainable fashion culture.",
+    "price": 290.00
   },
   {
     "id": 9,
-    "picture": "https://i.ibb.co/CM5qZnB/Health.png",
+    "picture": "https://i.ibb.co/dDsBVrF/rsz-health.jpg",
     "title": "Clean Water for Children",
     "category": "Health",
     "category_bg_color": "#0052FF26",
     "card_bg_color": "#0052FF33",
     "text_button_bg_color": "#0052FF",
     "description": "Your donation will provide clean and safe drinking water to children in under-served communities, improving their health and well-being.",
-    "price": "$290.00"
+    "price": 290.00
   },
   {
     "id": 10,
-    "picture": "https://i.ibb.co/92r56z2/Education.png",
+    "picture": "https://i.ibb.co/X8PR2dv/rsz-education.jpg",
     "title": "Good Education",
     "category": "Education",
     "category_bg_color": "#FF444A26",
     "card_bg_color": "#FF444933",
     "text_button_bg_color": "#FF444A",
     "description": "Support quality education initiatives to empower students with the knowledge and skills they need for a brighter future.",
-    "price": "$290.00"
+    "price": 290.00
   },
   {
     "id": 11,
-    "picture": "https://i.ibb.co/BGGWbDm/Food.png",
+    "picture": "https://i.ibb.co/Hh3jJHv/rsz-food.jpg",
     "title": "Better Food for Everyone",
     "category": "Food",
     "category_bg_color": "#F8714726",
     "card_bg_color": "#F8714733",
     "text_button_bg_color": "#F87147",
     "description": "Contribute to the effort to provide nutritious and accessible food to everyone, ensuring no one goes hungry.",
-    "price": "$290.00"
+    "price": 290.00
   },
   {
     "id": 12,
@@ -129,6 +131,6 @@
     "card_bg_color": "#79C23F33",
     "text_button_bg_color": "#79C23F",
     "description": "Donate gently used clothing to help individuals in need stay warm and comfortable, and support a sustainable fashion culture.",
-    "price": "$290.00"
+    "price": 290.00
   }
 ]
