@@ -1,10 +1,45 @@
+import Swal from "sweetalert2";
 
 
 const SectorCard = ({data}) => {
     const {id,picture,title,category,category_bg_color,card_bg_color,text_button_bg_color,price,description }=data || {};
     const handleAddToDonate =() =>{
+
         const addedDonateArray = [];
         const donateCard = JSON.parse(localStorage.getItem("donate"));
+        if(!donateCard){
+            addedDonateArray.push(data);
+            localStorage.setItem("donate",JSON.stringify(addedDonateArray));
+            Swal.fire(
+                'Good job!',
+                'Thanks for Donating',
+                'success'
+              )
+           
+
+        }
+        else{
+            const isExist = donateCard.find((donate) => donate.id === id);
+            if(!isExist){
+                addedDonateArray.push(...donateCard,data);
+                localStorage.setItem("donate",JSON.stringify(addedDonateArray));
+                Swal.fire(
+                    'Good job!',
+                    'Thanks for Donating',
+                    'success'
+                  );
+
+            } else{
+
+                Swal.fire({
+                    icon: 'error',
+                    title: 'Oops...',
+                    text: 'You have already Donated!!!',
+                    
+                  })
+                
+            }
+        }
     }
     return (
         <div className="my-10 p-5 md:p-10">
