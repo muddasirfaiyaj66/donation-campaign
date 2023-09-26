@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "npm run build && cp build/index.html build/200.html && surge build https://{domain_name}"
   },
   "dependencies": {
     "localforage": "^1.10.0",
@@ -15,6 +16,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.16.0",
+    "recharts": "^2.8.0",
     "sort-by": "^1.2.0",
     "sweetalert2": "^11.7.29"
   },
