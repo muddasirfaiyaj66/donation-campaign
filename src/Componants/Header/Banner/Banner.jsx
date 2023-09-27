@@ -1,6 +1,12 @@
 
 
 const Banner = () => {
+  const handleSearch = ()=>{
+    const input =document.getElementById("input");
+    const inputText = input.value;
+    
+    
+  }
     return (
         <div>
             <div className="hero h-[60vh] " style={{backgroundImage: 'url(Banner.png)'}} >
@@ -9,14 +15,14 @@ const Banner = () => {
     <div className="">
       <h1 className="mb-6 text-xl  md:text-3xl lg:text-5xl font-bold text-black ">I Grow By Helping People In Need</h1>
       
-      <div className="relative flex h-15 lg:w-[450px] md:w-[300px] mx-auto">
-  <input
+    <div  className="relative flex h-15 lg:w-[450px] md:w-[300px] mx-auto">
+  <input id="input"
     type="email"
     className="peer h-full w-full rounded-[7px] border border-gray-400 border-t-transparent bg-white px-3 py-3 pr-20 font-sans text-sm font-normal text-black outline outline-0 transition-all placeholder-shown:border placeholder-shown:border-gray-400 placeholder-shown:border-t-gray-400 focus:border-2 focus:border-[#FF444A] focus:border-t-transparent focus:outline-0 disabled:border-0 disabled:bg-gray-400"
     placeholder="Search... "
     required
   />
-  <button
+  <button onClick={handleSearch}
     className="!absolute right-1 top-1 z-10 select-none rounded bg-[#FF444A] py-2.5 px-4 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-pink-500/20 transition-all hover:shadow-lg hover:shadow-pink-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none peer-placeholder-shown:pointer-events-none peer-placeholder-shown:bg- peer-placeholder-shown:opacity-50 peer-placeholder-shown:shadow-none"
     type="button"
     data-ripple-light="true"
@@ -31,7 +37,10 @@ const Banner = () => {
     </div>
   </div>
 </div>
+
+
         </div>
+        
     );
 };
 

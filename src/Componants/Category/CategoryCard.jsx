@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 
 const CategoryCard = ({categoryData}) => {
     const {id,picture,title,category,category_bg_color,card_bg_color,text_button_bg_color }=categoryData || {};
+    
     return (
         <div >
         <Link to={`/categoryData/${id}`}>

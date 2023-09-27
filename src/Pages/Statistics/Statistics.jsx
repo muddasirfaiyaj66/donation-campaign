@@ -5,10 +5,13 @@ import { PieChart, Pie, Cell } from 'recharts';
 
 
 const Statistics = () => {
+  
   const total = 12;
 const donateCard = JSON.parse(localStorage.getItem("donate"));
 
 const totalDonation = donateCard.length;
+
+
 const totalDonationParcent = ( totalDonation / total) *100;
 const remain = 100 - totalDonationParcent;
 const data = [
@@ -36,7 +39,7 @@ const renderCustomizedLabel = ({ cx, cy, midAngle, innerRadius, outerRadius, per
     <div className='flex space-y-8 p-5 flex-col my-10 justify-center mx-auto items-center '>
          
     
-    <PieChart  width={400} height={500}>
+    <PieChart  width={300} height={500}>
   <Pie  data={data} cx="50%" cy="50%" outerRadius={150} labelLine={false}
             label={renderCustomizedLabel}
             fill="#8884d8"
